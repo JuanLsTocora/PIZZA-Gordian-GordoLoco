@@ -1,10 +1,10 @@
 {
   "buildCommand": "",
-  "outputDirectory": "Inicio",
+  "outputDirectory": ".",
   "rewrites": [
     {
-      "source": "/",
-      "destination": "/index.html"
+      "source": "/(.*)",
+      "destination": "/Inicio/$1"
     }
   ]
 }

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzas Gordian - Las Mejores Pizzas</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">🍕 PIZZAS GORDIAN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#menu">Menú</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#about">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>PIZZAS GORDIAN</h1>
+            <p>Las pizzas más deliciosas hechas con ingredientes frescos y auténticos</p>
+            <button class="btn btn-order" onclick="alert('¡Próximamente disponible el carrito de compras!')">Hacer Pedido</button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <h2 class="section-title">Nuestro Menú</h2>
+            
+            <div class="row g-4">
+                <!-- Pizza 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card pizza-card">
+                        <div class="pizza-image" style="background: linear-gradient(135deg, #ff7675, #fdcb6e);">
+                            🍕
+                            <span class="badge-offer">¡HOT!</span>
+                        </div>
+                        <div class="pizza-card-body">
+                            <div class="pizza-name">Pizza Gordiana</div>
+                            <div class="pizza-description">Nuestra especialidad: mozzarella, pepperoni, jamón y carne molida.</div>
+                            <div class="pizza-ingredients">Ingredientes: queso, carnes variadas, orégano, ajo</div>
+                            <div class="price-section">
+                                <span class="pizza-price">$15.99</span>
+                                <button class="btn btn-add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card pizza-card">
+                        <div class="pizza-image" style="background: linear-gradient(135deg, #6c5ce7, #a29bfe);">
+                            🍕
+                        </div>
+                        <div class="pizza-card-body">
+                            <div class="pizza-name">Vegetariana</div>
+                            <div class="pizza-description">Perfecta para los amantes de lo verde: pimientos, champiñones, aceitunas.</div>
+                            <div class="pizza-ingredients">Ingredientes: queso, verduras frescas, tomate, orégano</div>
+                            <div class="price-section">
+                                <span class="pizza-price">$12.99</span>
+                                <button class="btn btn-add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card pizza-card">
+                        <div class="pizza-image" style="background: linear-gradient(135deg, #ff7675, #fab1a0);">
+                            🍕
+                            <span class="badge-offer">ESPECIAL</span>
+                        </div>
+                        <div class="pizza-card-body">
+                            <div class="pizza-name">BBQ Gourmet</div>
+                            <div class="pizza-description">Carne asada, cebolla caramelizada, salsa BBQ y queso azul.</div>
+                            <div class="pizza-ingredients">Ingredientes: carnes premium, queso azul, BBQ casera</div>
+                            <div class="price-section">
+                                <span class="pizza-price">$16.99</span>
+                                <button class="btn btn-add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card pizza-card">
+                        <div class="pizza-image" style="background: linear-gradient(135deg, #0984e3, #74b9ff);">
+                            🍕
+                        </div>
+                        <div class="pizza-card-body">
+                            <div class="pizza-name">Frutti di Mare</div>
+                            <div class="pizza-description">Deliciosos mariscos frescos: camarones, calamares y pulpo.</div>
+                            <div class="pizza-ingredients">Ingredientes: mariscos frescos, limón, ajo, hierbas</div>
+                            <div class="price-section">
+                                <span class="pizza-price">$18.99</span>
+                                <button class="btn btn-add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card pizza-card">
+                        <div class="pizza-image" style="background: linear-gradient(135deg, #e17055, #fab1a0);">
+                            🍕
+                        </div>
+                        <div class="pizza-card-body">
+                            <div class="pizza-name">Pollo Picante</div>
+                            <div class="pizza-description">Pechuga de pollo, jalapeños, queso cheddar y salsa picante.</div>
+                            <div class="pizza-ingredients">Ingredientes: pollo jugoso, jalapeños, cheddar, salsa</div>
+                            <div class="price-section">
+                                <span class="pizza-price">$14.99</span>
+                                <button class="btn btn-add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card pizza-card">
+                        <div class="pizza-image" style="background: linear-gradient(135deg, #fdcb6e, #ffeaa7);">
+                            🍕
+                            <span class="badge-offer">VEGAN</span>
+                        </div>
+                        <div class="pizza-card-body">
+                            <div class="pizza-name">Vegana Deluxe</div>
+                            <div class="pizza-description">100% plantas: queso vegan, vegetales asados y frutos secos.</div>
+                            <div class="pizza-ingredients">Ingredientes: queso vegano, veggies, frutos secos</div>
+                            <div class="price-section">
+                                <span class="pizza-price">$13.99</span>
+                                <button class="btn btn-add-to-cart">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Pizzas Gordian</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <img src="./img Inicio/damian1.png" alt="Pizzero Damian 1" class="img-fluid rounded" style="max-width: 100%; height: auto; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);">
+                        </div>
+                        <div class="col-12">
+                            <img src="./img Inicio/damian2.png" alt="Pizzero Damian 2" class="img-fluid rounded" style="max-width: 100%; height: auto; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <p>En <strong>Pizzas Gordian</strong>, nos apasiona crear las pizzas más deliciosas del mercado. Desde hace más de 15 años, hemos estado perfeccionando nuestras recetas con ingredientes frescos y de calidad premium.</p>
+                        <p>Cada pizza es preparada con amor y cuidado por nuestro equipo de maestros pizzeros. Utilizamos horno de piedra a 300°C para lograr esa corteza perfecta, crujiente por fuera y suave por dentro.</p>
+                        <p>Nuestro compromiso es brindarte no solo una pizza, sino una experiencia culinaria inolvidable.</p>
+                        <h4 style="color: var(--pizza-red); margin-top: 20px;">¿Por qué elegirnos?</h4>
+                        <ul style="color: #636e72;">
+                            <li>✅ Ingredientes frescos y de calidad</li>
+                            <li>✅ Preparadas en horno de piedra</li>
+                            <li>✅ Entrega rápida y caliente</li>
+                            <li>✅ Variedad de sabores para todos</li>
+                            <li>✅ Personal amable y profesional</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section style="padding: 80px 0; background-color: var(--pizza-light);">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <h5 style="color: var(--pizza-red); font-weight: bold;">📞 Teléfono</h5>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 style="color: var(--pizza-red); font-weight: bold;">📍 Dirección</h5>
+                    <p>Calle Principal 123, Ciudad</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 style="color: var(--pizza-red); font-weight: bold;">⏰ Horario</h5>
+                    <p>Lun-Dom: 11:00 AM - 11:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <p style="font-size: 1.1rem; margin-bottom: 10px;">&copy; 2026 Pizzas Gordian. Todos los derechos reservados.</p>
+            <p>Síguenos en: 
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="../bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

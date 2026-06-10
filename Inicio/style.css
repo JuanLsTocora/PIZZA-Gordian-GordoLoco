@@ -24,7 +24,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, rgba(214, 48, 49, 0.7), rgba(183, 28, 28, 0.7)), url('./img Inicio/damian.png') left/cover, url('./img Inicio/damian1.png') center/cover, url('./img Inicio/damian2.png') right/cover;
+    background: linear-gradient(135deg, rgba(214, 48, 49, 0.7), rgba(183, 28, 28, 0.7)), url('./img%20Inicio/damian.png') left/cover, url('./img%20Inicio/damian1.png') center/cover, url('./img%20Inicio/damian2.png') right/cover;
     background-blend-mode: overlay;
     color: white;
     padding: 80px 20px;
@@ -201,7 +201,7 @@ body {
 
 /* Footer */
 footer {
-    background: linear-gradient(rgba(45, 52, 54, 0.85), rgba(45, 52, 54, 0.85)), url('./img Inicio/unas-de-las-pizzas-de.jpg') center/cover;
+    background: linear-gradient(rgba(45, 52, 54, 0.85), rgba(45, 52, 54, 0.85)), url('./img%20Inicio/unas-de-las-pizzas-de.jpg') center/cover;
     color: white;
     padding: 40px 0;
     text-align: center;
